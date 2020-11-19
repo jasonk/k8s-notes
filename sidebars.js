@@ -28,6 +28,6 @@ module.exports = {
     ].map( x => `apps/${x}` ),
     'Advanced': [
       'multi-tenancy',
-    ].map( x => `apps/${x}` ),
+    ].map( x => `advanced/${x}` ),
   },
 };
