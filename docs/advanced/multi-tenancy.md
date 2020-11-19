@@ -1,8 +1,6 @@
 ---
-title: Multi-Tenancy
+title: Multi-Tenancy Best Practices
 ---
-
-> Best Practices for Multi-Tenancy
 
 Most of these are recommendations for the [Kubernetes Working Group
 for Multi-Tenancy][mtsig].

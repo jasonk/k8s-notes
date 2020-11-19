@@ -26,5 +26,8 @@ module.exports = {
       'argocd',
       'cert-manager',
     ].map( x => `apps/${x}` ),
+    'Advanced': [
+      'multi-tenancy',
+    ].map( x => `apps/${x}` ),
   },
 };
