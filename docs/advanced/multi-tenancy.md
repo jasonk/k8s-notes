@@ -113,7 +113,7 @@ The multi-tenancy SIG recommends that these admission controllers be enabled:
 ## Further Reading ##
 
 * [Multi-Tenancy Benchmarks](https://github.com/kubernetes-sigs/multi-tenancy/tree/master/benchmarks) - guidelines for multi-tenant configuration of Kubernetes clusters.
-* [kubectl-mtb](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/benchmarks/kubectl-mtb/README.md) - a kubectl plugin that can validate your cluster agains the Multi-Tenancy Benchmarks.
+* [kubectl-mtb](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/benchmarks/kubectl-mtb/README.md) - a kubectl plugin that can validate your cluster against the Multi-Tenancy Benchmarks.
 * [Hierarchical Namespace Controller](https://github.com/kubernetes-sigs/multi-tenancy/tree/master/incubator/hnc) - a controller that allows for hierarchical namespaces, allowing for things like developers creating namespaces under their team namespace without needing cluster-level permission to create namespaces.  See [HNC QuickStart](https://github.com/kubernetes-sigs/multi-tenancy/blob/master/incubator/hnc/docs/user-guide/quickstart.md) for some ideas of what you can do with this.
 * [Tenant Operator](https://github.com/kubernetes-sigs/multi-tenancy/tree/master/tenant) - an operator that manages a set of CRDs used to manage tenant resources.
 * [Resource Quotes](https://kubernetes.io/docs/concepts/policy/resource-quotas/)
